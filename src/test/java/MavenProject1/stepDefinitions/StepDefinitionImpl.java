@@ -69,13 +69,13 @@ public void message_is_displayed_on_ConfirmationPage(String string )
 }
 
 	
-	@Then("{string} message is displayed")
-	public void message_is_displayed(String string )
-
-	{
-		Assert.assertEquals(string, landingclass.getErrorMessage());
-	}
-	
+//	@Then("{string} message is displayed")
+//	public void message_is_displayed(String string )
+//
+//	{
+//		Assert.assertEquals(string, landingclass.getErrorMessage());
+//	}
+//	
 	
 
 }
